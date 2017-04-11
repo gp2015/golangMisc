@@ -4,6 +4,30 @@ import "fmt"
 
 func main() {
 
+	fmt.Println("Hello World!")
+
+	var age int64 = 40
+
+	var favNum float64 = 1.61803398875
+
+	randNum := 1;
+	fmt.Println(randNum);
+
+	fmt.Println(age, " ", favNum)
+
+	var numOne = 1.000
+	var num99 = .999
+
+	fmt.Println(numOne - num99)
+
+	// Artihmetic Operators : +, 0, *, /, %
+
+	fmt.Println("6 + 4 =", 6 + 4)
+	fmt.Println("6 - 4 =", 6 - 4)
+	fmt.Println("6 * 4 =", 6 * 4)
+	fmt.Println("6 / 4 =", 6 / 4)
+	fmt.Println("6 % 4 =", 6 % 4)
+
 	// A constant is a variable with a value that can't be changed
 
 	const pi float64 = 3.14159265359
